@@ -28,3 +28,4 @@ group :production do
   gem 'passenger'
 end
 gem 'inherited_resources'
+gem 'rails_12factor', group: :production
