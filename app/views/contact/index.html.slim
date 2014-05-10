@@ -1,2 +1,15 @@
-h1 Contact#index
-p Find me in app/views/contact/index.html.slim
+h1 Contact
+p
+  div(itemtype="http://schema.org/Organization" itemscope)
+    span itemprop="name" Agro-Handel sp.j. Skibińska, Wieczorek
+    div(itemprop="address" itemtype="http://schema.org/PostalAddress" itemscope)
+      span itemprop="streetAddress" Spichrzowa 2
+      br
+      span itemprop="postalCode" 62-045
+      span>
+      span itemprop="addressLocality" Pniewy
+    span> tel.
+    span itemprop="telephone" 61-291-17-16
+    br
+    = mail_to 'agrohandel@gmail.com', nil, {itemprop: 'email'}
+    = render 'contact/google_maps'
