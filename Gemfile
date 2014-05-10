@@ -27,3 +27,4 @@ end
 group :production do
   gem 'passenger'
 end
+gem 'inherited_resources'
