@@ -1,9 +1,7 @@
 Rails.application.routes.draw do
-  get 'history/index', to: redirect('/history')
-  match '/history', to: 'history#index', via: :get
+    get 'history/index'
 
-  get 'contact/index', to: redirect('/contact')
-  match '/contact', to: 'contact#index', via: :get
+    get 'contact/index'
 
-  root 'home#index'
+    root 'home#index'
 end
