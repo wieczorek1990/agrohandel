@@ -50,3 +50,11 @@ footer {
   background: url('subtle_white_feathers.png') repeat 0 0;
   border-radius: 0.5em;
 }
+.standout {
+  width: inherit;
+  box-shadow: 0 0 0.2em 0.2em #ccc;
+  background-color: #fbf5f9;
+  border: 1px solid #bce3b5;
+  padding: 15px 20px;
+  margin: 20px 0;
+}
