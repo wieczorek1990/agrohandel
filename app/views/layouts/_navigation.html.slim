@@ -1,18 +1,7 @@
 / navigation styled for Bootstrap 3.0
-.logo
-  .logo-image
-    = image_tag 'logo.jpg'
-  .logo-text
-    h1 Agro-Handel
 nav.navbar
   .container
     .navbar-header
-      button.navbar-toggle[type="button" data-toggle="collapse" data-target=".navbar-collapse"]
-        span.sr-only Toggle navigation
-        span.icon-bar
-        span.icon-bar
-        span.icon-bar
-      = link_to 'Home', root_path, class: 'navbar-brand'
-    .collapse.navbar-collapse
+      = link_to 'Agro-Handel', root_path, class: 'navbar-brand logo'
       ul.nav.navbar-nav
-        == render 'layouts/navigation_links'
+      == render 'layouts/navigation_links'

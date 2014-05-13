@@ -31,38 +31,11 @@ $link-color: black;
 * {
   font-family: 'Source Sans Pro', sans-serif;
 }
-.logo-image {
-  float: left;
-}
-.logo-text {
-  color: $link-color;
-  font-family: 'Bitter', serif;
-  font-style: bold;
-}
-.logo-text h1 {
-  font-size: 500%;
-  text-align: center;
-}
-.logo {
-  background-color: $top;
-  overflow: auto;
-}
-nav {
-  clear: both;
-  background-color: $primary;
-}
 a {
   color: $link-color;
 }
-main {
-  background-color: lighten($primary, 50%);
-}
-body {
-  background-color: lighten($primary, 45%);
-  width: 50%;
-  margin: 0 auto;
-  min-height: 50em;
-  @include border-radius(1em);
+.logo {
+  font-family: 'Bitter', serif;
 }
 .navbar {
   margin-bottom: 0;
