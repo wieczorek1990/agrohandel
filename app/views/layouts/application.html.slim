@@ -12,20 +12,19 @@ html
     script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.5.1/fotorama.js"
   body(data-no-turbolink)
     div class="row"
-      div class="col-md-3"
-      div class="col-md-6"
+      div class="col-sm-3"
+      div class="col-sm-6"
         div class="row"
-          div class="col-md-3"
-          div class="col-md-6"
+          div class="col-xs-3"
+          div class="col-xs-6"
             = image_tag 'logo.png', alt: 'Agro-Handel'
             h1 class="logo" Agro-Handel
             h1 class="logo" Pniewy
-          div class="col-md-2"
-          div class="col-md-1"
+          div class="col-xs-3"
             a href="#{default_language_path(request.path)}"
-              = image_tag 'Flag_of_Poland.svg', class: 'flag'
+              = image_tag 'Flag_of_Poland.svg', {class: 'flag', size: '31x19'}
             a href="#{request.path + '?locale=en'}"
-              = image_tag 'Flag_of_the_United_Kingdom.svg', class: 'flag'
+              = image_tag 'Flag_of_the_United_Kingdom.svg', {class: 'flag', size: '31x15'}
         header
           == render 'layouts/navigation'
         main[role="main"]
@@ -34,4 +33,4 @@ html
         hr
         footer
           = mail_to 'wieczorek1990@gmail.com', '&copy; łw'.html_safe
-      div class="col-md-3"
+      div class="col-sm-3"
