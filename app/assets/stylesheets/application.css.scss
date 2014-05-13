@@ -14,16 +14,7 @@
  *= require_self
  */
 
-$primary: #68b01c;
-$top: #fffa45;
 $link-color: black;
-
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-  -moz-border-radius: $radius;
-  -ms-border-radius: $radius;
-  border-radius: $radius;
-}
 
 @import url(http://fonts.googleapis.com/css?family=Bitter:400,700,400italic);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic);
@@ -34,9 +25,28 @@ $link-color: black;
 a {
   color: $link-color;
 }
+main {
+  background: url('subtle_white_feathers.png') repeat 0 0;
+}
 .logo {
   font-family: 'Bitter', serif;
+  text-align: center;
 }
 .navbar {
   margin-bottom: 0;
+/*
+  border-width: 1px;
+  border-color: black;
+  border-radius: 1em;
+*/
+}
+h1 {
+  text-shadow: 1px 1px 1px #ccc;
+}
+footer {
+  text-align: center;
+}
+.active {
+  background: url('subtle_white_feathers.png') repeat 0 0;
+  border-radius: 0.5em;
 }

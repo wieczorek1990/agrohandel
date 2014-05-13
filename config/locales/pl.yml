@@ -19,8 +19,9 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en:
-  hello: "Hello world"
-  home: 'Home'
-  contact: 'Contact'
-  opening_hours: 'Opening hours: Monday - Friday: 8:00 - 15:00'
+pl:
+  hello: "Witaj świecie"
+  home: 'Strona domowa'
+  contact: 'Kontakt'
+  opening_hours: 'Godziny otwarcia: Poniedziałek - Piątek: 8:00 - 15:00'
+

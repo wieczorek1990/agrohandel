@@ -1,5 +1,5 @@
-h1 Contact
-p
+h1 = t('contact')
+.address
   div(itemtype="http://schema.org/Organization" itemscope)
     span itemprop="name" Agro-Handel sp.j. Skibińska, Wieczorek
     div(itemprop="address" itemtype="http://schema.org/PostalAddress" itemscope)
@@ -12,4 +12,5 @@ p
     span itemprop="telephone" 61-291-17-16
     br
     = mail_to 'agrohandel@gmail.com', nil, {itemprop: 'email'}
-    = render 'contact/google_maps'
+  time itemprop="openingHours" datetime="Mo-Fr 8:00-15:00" = t('opening_hours')
+= render 'contact/google_maps'

@@ -8,9 +8,21 @@ html
     == stylesheet_link_tag "application", :media => 'all', 'data-turbolinks-track' => true
     == javascript_include_tag 'application', 'data-turbolinks-track' => true
     == csrf_meta_tags
+    link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.5.1/fotorama.css" rel="stylesheet"
+    script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.5.1/fotorama.js"
   body(data-no-turbolink)
-    header
-      == render 'layouts/navigation'
-    main[role="main"]
-      == render 'layouts/messages'
-      == yield
+    div class="row"
+      div class="col-md-3"
+      div class="col-md-6"
+        = image_tag 'logo.png', alt: 'Agro-Handel'
+        h1 class="logo" Agro-Handel
+        h1 class="logo" Pniewy
+        header
+          == render 'layouts/navigation'
+        main[role="main"]
+          == render 'layouts/messages'
+          == yield
+        hr
+        footer
+          = mail_to 'wieczorek1990@gmail.com', '&copy; łw'.html_safe
+      div class="col-md-3"
