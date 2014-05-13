@@ -34,11 +34,6 @@ main {
 }
 .navbar {
   margin-bottom: 0;
-/*
-  border-width: 1px;
-  border-color: black;
-  border-radius: 1em;
-*/
 }
 h1 {
   text-shadow: 1px 1px 1px #ccc;
@@ -60,4 +55,5 @@ footer {
 }
 .flag {
   margin-bottom: 5px;
+  box-shadow: 0 0 0.05em 0.05em #ccc;
 }
