@@ -21,7 +21,7 @@
 
 pl:
   hello: "Witaj świecie"
-  home: 'Strona domowa'
+  home: 'Galeria'
   contact: 'Kontakt'
   opening_hours: 'Godziny otwarcia: Poniedziałek - Piątek: 8:00 - 15:00'
   history: 'Historia'
