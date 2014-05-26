@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
-    get 'history/index'
+  get 'about/index'
 
-    get 'contact/index'
+  get 'history/index'
 
-    root 'home#index'
+  get 'contact/index'
+
+  root 'home#index'
 end
