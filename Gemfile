@@ -29,3 +29,4 @@ group :production do
 end
 gem 'inherited_resources'
 gem 'rails_12factor', group: :production
+gem 'jquery-turbolinks'
