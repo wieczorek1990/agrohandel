@@ -20,9 +20,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
   home: 'Gallery'
   contact: 'Contact'
   opening_hours: 'Opening hours: Monday - Friday: 8:00 - 15:00'
   about: 'About'
-  about_text: 'The company was founded in 1995.'
+  about_html: 'The company was founded in 1995.'

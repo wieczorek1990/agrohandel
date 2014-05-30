@@ -20,10 +20,25 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 pl:
-  hello: "Witaj świecie"
-  home: 'Galeria'
+  home: 'Witamy'
   contact: 'Kontakt'
   opening_hours: 'Godziny otwarcia: Poniedziałek - Piątek: 8:00 - 15:00'
   about: 'O Firmie'
-  about_text: 'Firma została założona w 1995 roku.'
-
+  about_html: '&emsp;
+    Spółka jawna Agro-Handel została założona w 1995 roku. Jesteśmy doświadczoną firmą działającą na rynku zbóż, rzepaku
+    i kukurydzy.
+    Główną działalnością spółki jest skup rzepaku, zbóż i kukurydzy.
+    Świadczymy usługi w zakresie czyszczenia, suszenia i przechowywania w/w płodów rolnych oraz zajmujemy się sprzedażą
+    materiału siewnego.
+    Działając w branży już blisko 20 lat współpracujemy z największymi zakładami przetwórczymi i nasiennymi.
+    Posiadamy najnowocześniejszy sprzęt laboratoryjny do rzetelnej oceny skupowanych płodów rolnych.
+    <br/>
+    &emsp;
+    Spółka zarządzana jest przez osoby mające wyższe wykształcenie rolnicze oraz doświadczenie w pracy na Poznańskiej
+    Giełdzie.
+    Będąc właścicielami 110 ha ziemi rolnej, posiadamy praktyczną wiedzę rolniczą i służymy doradztwem w jej uprawie.
+    <br/>
+    Spółka jest otwarta na podjęcie współpracy z nowymi dostawcami i odbiorcami skupowanych płodów rolnych.
+    <br/>
+    &emsp;
+    <h3 style="text-align: center;">Zapraszamy do współpracy</h3>'
