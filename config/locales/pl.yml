@@ -20,7 +20,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 pl:
-  home: 'Witamy'
+  home: 'Galeria'
+  welcome: 'Witamy'
   contact: 'Kontakt'
   opening_hours: 'Godziny otwarcia: Poniedziałek - Piątek: 8:00 - 15:00'
   about: 'O Firmie'
