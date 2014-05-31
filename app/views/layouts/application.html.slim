@@ -5,11 +5,10 @@ html
     title
       = content_for?(:title) ? yield(:title) : 'Agro-Handel'
     meta name="description" content="#{content_for?(:description) ? yield(:description) : 'Agro-Handel'}"
+    = yield(:head)
     == stylesheet_link_tag "application", :media => 'all', 'data-turbolinks-track' => true
     == javascript_include_tag 'application', 'data-turbolinks-track' => true
     == csrf_meta_tags
-    link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.5.1/fotorama.css" rel="stylesheet"
-    script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.5.1/fotorama.js"
     = render 'layouts/ga'
   body
     div class="row"
