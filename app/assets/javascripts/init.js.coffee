@@ -2,7 +2,6 @@ $ ->
   controller = $('body').data('controller')
   $("##{controller}").addClass('active')
   if controller == 'contact'
-    console.log 'here'
     init_map = ->
       myOptions =
         zoom: 15
