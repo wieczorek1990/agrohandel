@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   get 'contact/index'
 
-  root 'home#index'
+  root 'contact#index'
 end
