@@ -44,7 +44,6 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.7.0)
-    daemon_controller (1.2.0)
     debug_inspector (0.0.2)
     erubis (2.7.0)
     execjs (2.0.2)
@@ -75,8 +74,7 @@ GEM
     mime-types (1.25.1)
     minitest (5.3.3)
     multi_json (1.10.0)
-    passenger (4.0.42)
-      daemon_controller (>= 1.2.0)
+    passenger (5.3.2)
       rack
       rake (>= 0.8.1)
     pg (0.17.1)
@@ -92,7 +90,7 @@ GEM
       pry
     quiet_assets (1.0.2)
       railties (>= 3.1, < 5.0)
-    rack (1.5.2)
+    rack (1.5.5)
     rack-test (0.6.2)
       rack (>= 1.0)
     rails (4.1.1)
@@ -116,7 +114,7 @@ GEM
       activesupport (= 4.1.1)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    rake (10.3.1)
+    rake (12.3.3)
     rdoc (4.1.1)
       json (~> 1.4)
     ref (1.0.5)
